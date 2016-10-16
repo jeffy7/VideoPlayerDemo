@@ -15,6 +15,16 @@
 		17DFC99E1DB369E8004A5228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DFC99C1DB369E8004A5228 /* LaunchScreen.storyboard */; };
 		17DFC9A91DB369E8004A5228 /* VideoPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFC9A81DB369E8004A5228 /* VideoPlayerDemoTests.m */; };
 		17DFC9B41DB369E9004A5228 /* VideoPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFC9B31DB369E9004A5228 /* VideoPlayerDemoUITests.m */; };
+		17DFC9C71DB36E7B004A5228 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9C61DB36E7B004A5228 /* MediaPlayer.framework */; };
+		17DFC9C91DB36FD8004A5228 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9C81DB36FD8004A5228 /* MediaAccessibility.framework */; };
+		17DFC9CB1DB36FE8004A5228 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9CA1DB36FE8004A5228 /* CoreMedia.framework */; };
+		17DFC9CD1DB37017004A5228 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9CC1DB37017004A5228 /* AVFoundation.framework */; };
+		17DFC9CF1DB3701D004A5228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9CE1DB3701D004A5228 /* Foundation.framework */; };
+		17DFC9D11DB37024004A5228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9D01DB37024004A5228 /* UIKit.framework */; };
+		17DFC9DF1DB3A6EA004A5228 /* a.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17DFC9DE1DB3A6EA004A5228 /* a.mp4 */; };
+		17DFC9E31DB3BA51004A5228 /* MediaPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFC9E21DB3BA51004A5228 /* MediaPlayerViewController.m */; };
+		17DFC9E71DB3BA6E004A5228 /* JFAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DFC9E61DB3BA6E004A5228 /* JFAVPlayerViewController.m */; };
+		17DFC9E91DB3BD1E004A5228 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DFC9E81DB3BD1E004A5228 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		17DFC9AF1DB369E9004A5228 /* VideoPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DFC9B31DB369E9004A5228 /* VideoPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerDemoUITests.m; sourceTree = "<group>"; };
 		17DFC9B51DB369E9004A5228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DFC9C61DB36E7B004A5228 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		17DFC9C81DB36FD8004A5228 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		17DFC9CA1DB36FE8004A5228 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		17DFC9CC1DB37017004A5228 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		17DFC9CE1DB3701D004A5228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17DFC9D01DB37024004A5228 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17DFC9DE1DB3A6EA004A5228 /* a.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.mp4; sourceTree = "<group>"; };
+		17DFC9E11DB3BA51004A5228 /* MediaPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayerViewController.h; sourceTree = "<group>"; };
+		17DFC9E21DB3BA51004A5228 /* MediaPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerViewController.m; sourceTree = "<group>"; };
+		17DFC9E51DB3BA6E004A5228 /* JFAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAVPlayerViewController.h; sourceTree = "<group>"; };
+		17DFC9E61DB3BA6E004A5228 /* JFAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAVPlayerViewController.m; sourceTree = "<group>"; };
+		17DFC9E81DB3BD1E004A5228 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DFC9E91DB3BD1E004A5228 /* AVKit.framework in Frameworks */,
+				17DFC9D11DB37024004A5228 /* UIKit.framework in Frameworks */,
+				17DFC9CF1DB3701D004A5228 /* Foundation.framework in Frameworks */,
+				17DFC9CD1DB37017004A5228 /* AVFoundation.framework in Frameworks */,
+				17DFC9CB1DB36FE8004A5228 /* CoreMedia.framework in Frameworks */,
+				17DFC9C91DB36FD8004A5228 /* MediaAccessibility.framework in Frameworks */,
+				17DFC9C71DB36E7B004A5228 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,7 @@
 				17DFC9A71DB369E8004A5228 /* VideoPlayerDemoTests */,
 				17DFC9B21DB369E9004A5228 /* VideoPlayerDemoUITests */,
 				17DFC98C1DB369E8004A5228 /* Products */,
+				17DFC9C51DB36E7B004A5228 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,8 @@
 		17DFC98D1DB369E8004A5228 /* VideoPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				17DFC9E41DB3BA64004A5228 /* AVPlayer */,
+				17DFC9E01DB3BA51004A5228 /* MediaPlayer */,
 				17DFC9911DB369E8004A5228 /* AppDelegate.h */,
 				17DFC9921DB369E8004A5228 /* AppDelegate.m */,
 				17DFC9941DB369E8004A5228 /* ViewController.h */,
@@ -117,6 +149,7 @@
 		17DFC98E1DB369E8004A5228 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17DFC9DE1DB3A6EA004A5228 /* a.mp4 */,
 				17DFC98F1DB369E8004A5228 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +171,38 @@
 				17DFC9B51DB369E9004A5228 /* Info.plist */,
 			);
 			path = VideoPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		17DFC9C51DB36E7B004A5228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17DFC9E81DB3BD1E004A5228 /* AVKit.framework */,
+				17DFC9D01DB37024004A5228 /* UIKit.framework */,
+				17DFC9CE1DB3701D004A5228 /* Foundation.framework */,
+				17DFC9CC1DB37017004A5228 /* AVFoundation.framework */,
+				17DFC9CA1DB36FE8004A5228 /* CoreMedia.framework */,
+				17DFC9C81DB36FD8004A5228 /* MediaAccessibility.framework */,
+				17DFC9C61DB36E7B004A5228 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17DFC9E01DB3BA51004A5228 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				17DFC9E11DB3BA51004A5228 /* MediaPlayerViewController.h */,
+				17DFC9E21DB3BA51004A5228 /* MediaPlayerViewController.m */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		17DFC9E41DB3BA64004A5228 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				17DFC9E51DB3BA6E004A5228 /* JFAVPlayerViewController.h */,
+				17DFC9E61DB3BA6E004A5228 /* JFAVPlayerViewController.m */,
+			);
+			path = AVPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DFC99E1DB369E8004A5228 /* LaunchScreen.storyboard in Resources */,
+				17DFC9DF1DB3A6EA004A5228 /* a.mp4 in Resources */,
 				17DFC99B1DB369E8004A5228 /* Assets.xcassets in Resources */,
 				17DFC9991DB369E8004A5228 /* Main.storyboard in Resources */,
 			);
@@ -278,7 +344,9 @@
 			files = (
 				17DFC9961DB369E8004A5228 /* ViewController.m in Sources */,
 				17DFC9931DB369E8004A5228 /* AppDelegate.m in Sources */,
+				17DFC9E31DB3BA51004A5228 /* MediaPlayerViewController.m in Sources */,
 				17DFC9901DB369E8004A5228 /* main.m in Sources */,
+				17DFC9E71DB3BA6E004A5228 /* JFAVPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JKV7V4656F;
 				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.VideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +508,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JKV7V4656F;
 				INFOPLIST_FILE = VideoPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.VideoPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
